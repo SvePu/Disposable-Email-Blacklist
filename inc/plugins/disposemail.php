@@ -9,10 +9,10 @@ function disposemail_info()
     return array(
         "name"        	=> "Disposable Email Blacklist 2020",
         "description" 	=> "Blocks 7831 known anonymous, disposable, or spam email providers or services. Please feel free to suggest more blacklisted email providers.",
-        "website"     	=> "",
+        "website"     	=> "https://community.mybb.com/mods.php?action=view&pid=1239",
         "author"      	=> "enespalit",
-        "authorsite"  	=> "",
-        "version"     	=> "3.1",
+        "authorsite"  	=> "https://github.com/EnesPalit",
+        "version"     	=> "3.1.1",
 		"compatibility"	=> '*',
     );
 }

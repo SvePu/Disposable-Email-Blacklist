@@ -16,4 +16,4 @@ Original Plugin Link (Stardust342): https://community.mybb.com/mods.php?action=v
 
 Deactivate it from your Plugin Configuration page of your MyBB Website.
 
-<em>Please feel free to suggest more blacklsited email providers.</em>
+<em>Please feel free to suggest more blacklisted email providers.</em>
