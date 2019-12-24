@@ -1497,7 +1497,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@cloudmail.gq", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@cloudmail.tk", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@cloudmarriage.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@cloudns.cc", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@cloudns.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@cloudns.cx", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@cloudns.gq", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -1552,7 +1551,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@coldmail.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@coleure.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@colorweb.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@com.ar", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@combustore.co", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@come-on-day.pw", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@comeonday.pw", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -1738,7 +1736,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@dcemail.men", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@ddcrew.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@ddmail.win", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@ddnsfree.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@ddosed.us", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@de-a.org", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@de-fake.instafly.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -1820,7 +1817,7 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@die-genossen.de", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@die-optimisten.de", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@die-optimisten.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@dieMailbox.de", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
+    $db->insert_query('banfilters', array('filter' => "*@diemailbox.de", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@digdown.xyz", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@digiprice.co", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@digital-filestore.de", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -2011,8 +2008,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@dx.ez.lv", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@dx.sly.io", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@dyceroprojects.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@dyndns.org", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@dynu.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@dz-geek.org", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@dz17.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@dz57taerst4574.ga", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -2793,7 +2788,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@giyam.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@glassaas.site", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@glassworks.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@gleeze.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@glitch.sx", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@global.idn.vn", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@globaltouron.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -3113,7 +3107,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@honor-8.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@hooohush.ai", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@hopemail.biz", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@hopto.org", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@hornyalwary.top", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@horsefucker.org", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@horvathurtablahoz.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -3213,7 +3206,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@icraftx.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@icx.in", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@icx.ro", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@id.au", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@id10tproof.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@ideepmind.pw", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@ideer.msk.ru", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -3792,7 +3784,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@koweancenjancok.gq", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@koweancenjancok.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@koyocah.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@kozow.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@kpooa.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@krd.ag", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@krim.ws", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -4681,7 +4672,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@msgos.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@msgsafe.ninja", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@msh.mailslite.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@msk.ru", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@mskey.co", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@mspeciosa.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@msrc.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -4873,7 +4863,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@nestle-usa.gq", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@nestle-usa.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@nestle-usa.tk", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@net.ua", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@net1mail.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@netmails.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@netmails.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -4965,7 +4954,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@nokiamail.gq", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@nokiamail.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@nolemail.ga", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@nom.za", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@nomail.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@nomail.ch", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@nomail.ga", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -5142,7 +5130,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@orangotango.tk", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@ordinaryamerican.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@oreidresume.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@org.ua", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@orgmbx.cc", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@oriete.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@oroki.de", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -5397,7 +5384,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@powerml.racing", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@powlearn.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@poy.kr", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@pp.ua", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@pp98.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@pp98.ga", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@pp98.gq", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -6326,7 +6312,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@spamwc.ga", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@spamwc.gq", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@spamwc.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@spb.ru", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@speed.1s.fr", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@speedgaus.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@sperke.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -7347,7 +7332,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@web-inc.net", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@web-mail.pp.ua", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@web.discard-email.cf", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@web.id", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@web2mailco.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@webarnak.fr.eu.org", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@webcontact-france.eu", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -7834,7 +7818,6 @@ function disposemail_activate()
     $db->insert_query('banfilters', array('filter' => "*@zombie-hive.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@zomg.info", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@zonamail.ga", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
-    $db->insert_query('banfilters', array('filter' => "*@zp.ua", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@zrmail.ga", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@zrmail.ml", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
     $db->insert_query('banfilters', array('filter' => "*@zsero.com", 'lastuse' => "0", 'type' => "3", 'dateline' => TIME_NOW));
@@ -9336,7 +9319,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@cloudmail.gq'");
     $db->delete_query('banfilters', "filter = '*@cloudmail.tk'");
     $db->delete_query('banfilters', "filter = '*@cloudmarriage.com'");
-    $db->delete_query('banfilters', "filter = '*@cloudns.cc'");
     $db->delete_query('banfilters', "filter = '*@cloudns.cf'");
     $db->delete_query('banfilters', "filter = '*@cloudns.cx'");
     $db->delete_query('banfilters', "filter = '*@cloudns.gq'");
@@ -9391,7 +9373,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@coldmail.ml'");
     $db->delete_query('banfilters', "filter = '*@coleure.com'");
     $db->delete_query('banfilters', "filter = '*@colorweb.cf'");
-    $db->delete_query('banfilters', "filter = '*@com.ar'");
     $db->delete_query('banfilters', "filter = '*@combustore.co'");
     $db->delete_query('banfilters', "filter = '*@come-on-day.pw'");
     $db->delete_query('banfilters', "filter = '*@comeonday.pw'");
@@ -9577,7 +9558,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@dcemail.men'");
     $db->delete_query('banfilters', "filter = '*@ddcrew.com'");
     $db->delete_query('banfilters', "filter = '*@ddmail.win'");
-    $db->delete_query('banfilters', "filter = '*@ddnsfree.com'");
     $db->delete_query('banfilters', "filter = '*@ddosed.us'");
     $db->delete_query('banfilters', "filter = '*@de-a.org'");
     $db->delete_query('banfilters', "filter = '*@de-fake.instafly.cf'");
@@ -9659,7 +9639,7 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@die-genossen.de'");
     $db->delete_query('banfilters', "filter = '*@die-optimisten.de'");
     $db->delete_query('banfilters', "filter = '*@die-optimisten.net'");
-    $db->delete_query('banfilters', "filter = '*@dieMailbox.de'");
+    $db->delete_query('banfilters', "filter = '*@diemailbox.de'");
     $db->delete_query('banfilters', "filter = '*@digdown.xyz'");
     $db->delete_query('banfilters', "filter = '*@digiprice.co'");
     $db->delete_query('banfilters', "filter = '*@digital-filestore.de'");
@@ -9850,8 +9830,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@dx.ez.lv'");
     $db->delete_query('banfilters', "filter = '*@dx.sly.io'");
     $db->delete_query('banfilters', "filter = '*@dyceroprojects.com'");
-    $db->delete_query('banfilters', "filter = '*@dyndns.org'");
-    $db->delete_query('banfilters', "filter = '*@dynu.net'");
     $db->delete_query('banfilters', "filter = '*@dz-geek.org'");
     $db->delete_query('banfilters', "filter = '*@dz17.net'");
     $db->delete_query('banfilters', "filter = '*@dz57taerst4574.ga'");
@@ -10632,7 +10610,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@giyam.com'");
     $db->delete_query('banfilters', "filter = '*@glassaas.site'");
     $db->delete_query('banfilters', "filter = '*@glassworks.cf'");
-    $db->delete_query('banfilters', "filter = '*@gleeze.com'");
     $db->delete_query('banfilters', "filter = '*@glitch.sx'");
     $db->delete_query('banfilters', "filter = '*@global.idn.vn'");
     $db->delete_query('banfilters', "filter = '*@globaltouron.com'");
@@ -10952,7 +10929,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@honor-8.com'");
     $db->delete_query('banfilters', "filter = '*@hooohush.ai'");
     $db->delete_query('banfilters', "filter = '*@hopemail.biz'");
-    $db->delete_query('banfilters', "filter = '*@hopto.org'");
     $db->delete_query('banfilters', "filter = '*@hornyalwary.top'");
     $db->delete_query('banfilters', "filter = '*@horsefucker.org'");
     $db->delete_query('banfilters', "filter = '*@horvathurtablahoz.ml'");
@@ -11052,7 +11028,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@icraftx.net'");
     $db->delete_query('banfilters', "filter = '*@icx.in'");
     $db->delete_query('banfilters', "filter = '*@icx.ro'");
-    $db->delete_query('banfilters', "filter = '*@id.au'");
     $db->delete_query('banfilters', "filter = '*@id10tproof.com'");
     $db->delete_query('banfilters', "filter = '*@ideepmind.pw'");
     $db->delete_query('banfilters', "filter = '*@ideer.msk.ru'");
@@ -11631,7 +11606,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@koweancenjancok.gq'");
     $db->delete_query('banfilters', "filter = '*@koweancenjancok.ml'");
     $db->delete_query('banfilters', "filter = '*@koyocah.ml'");
-    $db->delete_query('banfilters', "filter = '*@kozow.com'");
     $db->delete_query('banfilters', "filter = '*@kpooa.com'");
     $db->delete_query('banfilters', "filter = '*@krd.ag'");
     $db->delete_query('banfilters', "filter = '*@krim.ws'");
@@ -12520,7 +12494,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@msgos.com'");
     $db->delete_query('banfilters', "filter = '*@msgsafe.ninja'");
     $db->delete_query('banfilters', "filter = '*@msh.mailslite.com'");
-    $db->delete_query('banfilters', "filter = '*@msk.ru'");
     $db->delete_query('banfilters', "filter = '*@mskey.co'");
     $db->delete_query('banfilters', "filter = '*@mspeciosa.com'");
     $db->delete_query('banfilters', "filter = '*@msrc.ml'");
@@ -12712,7 +12685,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@nestle-usa.gq'");
     $db->delete_query('banfilters', "filter = '*@nestle-usa.ml'");
     $db->delete_query('banfilters', "filter = '*@nestle-usa.tk'");
-    $db->delete_query('banfilters', "filter = '*@net.ua'");
     $db->delete_query('banfilters', "filter = '*@net1mail.com'");
     $db->delete_query('banfilters', "filter = '*@netmails.com'");
     $db->delete_query('banfilters', "filter = '*@netmails.net'");
@@ -12804,7 +12776,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@nokiamail.gq'");
     $db->delete_query('banfilters', "filter = '*@nokiamail.ml'");
     $db->delete_query('banfilters', "filter = '*@nolemail.ga'");
-    $db->delete_query('banfilters', "filter = '*@nom.za'");
     $db->delete_query('banfilters', "filter = '*@nomail.cf'");
     $db->delete_query('banfilters', "filter = '*@nomail.ch'");
     $db->delete_query('banfilters', "filter = '*@nomail.ga'");
@@ -12981,7 +12952,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@orangotango.tk'");
     $db->delete_query('banfilters', "filter = '*@ordinaryamerican.net'");
     $db->delete_query('banfilters', "filter = '*@oreidresume.com'");
-    $db->delete_query('banfilters', "filter = '*@org.ua'");
     $db->delete_query('banfilters', "filter = '*@orgmbx.cc'");
     $db->delete_query('banfilters', "filter = '*@oriete.cf'");
     $db->delete_query('banfilters', "filter = '*@oroki.de'");
@@ -13236,7 +13206,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@powerml.racing'");
     $db->delete_query('banfilters', "filter = '*@powlearn.com'");
     $db->delete_query('banfilters', "filter = '*@poy.kr'");
-    $db->delete_query('banfilters', "filter = '*@pp.ua'");
     $db->delete_query('banfilters', "filter = '*@pp98.cf'");
     $db->delete_query('banfilters', "filter = '*@pp98.ga'");
     $db->delete_query('banfilters', "filter = '*@pp98.gq'");
@@ -14165,7 +14134,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@spamwc.ga'");
     $db->delete_query('banfilters', "filter = '*@spamwc.gq'");
     $db->delete_query('banfilters', "filter = '*@spamwc.ml'");
-    $db->delete_query('banfilters', "filter = '*@spb.ru'");
     $db->delete_query('banfilters', "filter = '*@speed.1s.fr'");
     $db->delete_query('banfilters', "filter = '*@speedgaus.net'");
     $db->delete_query('banfilters', "filter = '*@sperke.net'");
@@ -15186,7 +15154,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@web-inc.net'");
     $db->delete_query('banfilters', "filter = '*@web-mail.pp.ua'");
     $db->delete_query('banfilters', "filter = '*@web.discard-email.cf'");
-    $db->delete_query('banfilters', "filter = '*@web.id'");
     $db->delete_query('banfilters', "filter = '*@web2mailco.com'");
     $db->delete_query('banfilters', "filter = '*@webarnak.fr.eu.org'");
     $db->delete_query('banfilters', "filter = '*@webcontact-france.eu'");
@@ -15673,7 +15640,6 @@ function disposemail_deactivate()
     $db->delete_query('banfilters', "filter = '*@zombie-hive.com'");
     $db->delete_query('banfilters', "filter = '*@zomg.info'");
     $db->delete_query('banfilters', "filter = '*@zonamail.ga'");
-    $db->delete_query('banfilters', "filter = '*@zp.ua'");
     $db->delete_query('banfilters', "filter = '*@zrmail.ga'");
     $db->delete_query('banfilters', "filter = '*@zrmail.ml'");
     $db->delete_query('banfilters', "filter = '*@zsero.com'");
