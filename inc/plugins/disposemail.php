@@ -12,7 +12,7 @@ function disposemail_info()
         "website"     	=> "https://community.mybb.com/mods.php?action=view&pid=1239",
         "author"      	=> "enespalit",
         "authorsite"  	=> "https://github.com/EnesPalit",
-        "version"     	=> "3.1.1",
+        "version"     	=> "3.1.2",
 		"compatibility"	=> '*',
     );
 }
