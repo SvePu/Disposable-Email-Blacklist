@@ -1,5 +1,5 @@
 # MyBB Disposable Email Blacklist (Updated - 2020)
-MyBB Plugin which blocks 7831 known anonymous, disposable, or spam email providers or services.
+MyBB Plugin which blocks 7814 known anonymous, disposable, or spam email providers or services.
 
 Originally created by Depressurize and updated by Stardust342, I have merged both plugins into one and used martensons git (https://github.com/martenson/disposable-email-domains) as update source.
 
