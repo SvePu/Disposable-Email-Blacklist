@@ -7,43 +7,63 @@ if (!defined("IN_MYBB"))
 
 function disposemail_info()
 {
-    return [
+    return array(
         'name' => 'Disposable Email Blacklist 2020',
         'description' => 'Blocks 7831 known anonymous, disposable, or spam email providers or services. Please feel free to suggest more blacklisted email providers.',
         'website' => 'https://community.mybb.com/mods.php?action=view&pid=1239',
         'author' => 'enespalit',
         'authorsite' => 'https://github.com/EnesPalit',
         'version' => '3.2.0',
-        'compatibility' => '*',
-    ];
+        "codename" => "disposemail",
+        'compatibility' => '18*'
+    );
 }
 
 function disposemail_install()
 {
     global $db;
-    $db->write_query("ALTER TABLE " . TABLE_PREFIX . "banfilters ADD bsource VARCHAR(20) NOT NULL DEFAULT 'user' AFTER dateline");
+    if(!$db->field_exists("bsource", "banfilters"))
+    {
+        $db->add_column("banfilters", "bsource", "varchar(20) NOT NULL DEFAULT 'user'");
+    }
 }
 
 function disposemail_uninstall()
 {
     global $db;
-    $db->write_query("ALTER TABLE " . TABLE_PREFIX . "banfilters DROP bsource");
+    if($db->field_exists("bsource", "banfilters"))
+    {
+        $db->drop_column("usergroups", "bsource");
+    }
 }
 
 function disposemail_is_installed()
 {
     global $db;
-    return $db->field_exists('bsource', 'banfilters');
+    if($db->field_exists('bsource', 'banfilters'))
+    {
+        return true;
+    }
+    return false;
 }
 
 function disposemail_activate()
 {
     global $db, $cache;
     $dir = dirname(__FILE__) . DIRECTORY_SEPARATOR;
-    foreach (glob($dir . 'dem_*.csv') as $demfile) {
+    foreach(glob($dir . 'dem_*.csv') as $demfile)
+    {
         $fp = fopen($demfile, "r");
-        while ($email = fgetcsv($fp)) {
-            $db->replace_query('banfilters', ['filter' => $email[0], 'lastuse' => 0, 'type' => 3, 'dateline' => TIME_NOW, 'bsource' => 'dispemail']);
+        while($email = fgetcsv($fp))
+        {
+            $replacement = array(
+                'filter' => $email[0],
+                'lastuse' => 0,
+                'type' => 3,
+                'dateline' => TIME_NOW,
+                'bsource' => 'dispemail'
+            );
+            $db->replace_query('banfilters', $replacement);
         }
         fclose($fp);
     }
